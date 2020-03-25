@@ -1,18 +1,12 @@
 
-
-.navbar {
-background-color: #white;
-border-bottom: 2px solid black;
+.newtitle{
+  margin-top: 5%;
 }
 
-
-a.nav-link-main{
-  font-size: 50px;
-  color: black;
-  color: inherit;
-  text-decoration: none;
+.btn{
+  background-color: #74b49b;
+  border: none;
 }
-
 
 .btn-primary, .btn-primary:link, .btn-primary:visited {
    background-color: #74b49b;
@@ -39,3 +33,8 @@ a.nav-link-main{
     transform: translateY(3px);
   }
  }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #74b49b;
+    border-color: none;
+}

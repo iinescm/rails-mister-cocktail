@@ -1,0 +1,19 @@
+#box2{
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.backbutton{
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.fa-trash{
+  color: #black;
+}
+
+
+.form-control{border-width: 2px; border-color: #ededed;}
+
+.form-control:focus{border-color: #c7f0db;  box-shadow: none; -webkit-box-shadow: none;}
+.has-error .form-control:focus{box-shadow: none; -webkit-box-shadow: none;}

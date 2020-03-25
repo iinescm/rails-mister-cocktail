@@ -10,4 +10,11 @@
 
 // Your CSS partials
 @import "components/index";
-@import "pages/index";
+@import "pages/cocktails/index";
+@import "pages/cocktails/new";
+@import "pages/cocktails/show";
+
+.body {
+ background-color: #white;
+ font-family: 'Roboto Slab';
+}
