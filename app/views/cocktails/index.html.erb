@@ -19,7 +19,11 @@
 
       <% @cocktails.each do |cocktail| %>
       <div class="cocktail-container img-cocktail">
-        <%= cl_image_tag @cocktail.photo, height: 300, width: 200, crop: :fill %>
+         <% if cocktail.photo? %>
+          <%= cl_image_tag cocktail.photo.key, height: 300, width: 200, crop: :fill %>
+        <% else %>
+          <% background_url = 'https://source.unsplash.com/500x400/?cocktail' %>
+        <% end %>
 
         <div class="text-overlay">
              <h2 class= "cocktail-name"> <%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
