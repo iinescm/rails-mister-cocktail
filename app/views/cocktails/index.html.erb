@@ -20,8 +20,7 @@
       <% @cocktails.each do |cocktail| %>
       <div class="cocktail-container img-cocktail">
         <%= image_tag "drink.jpg", id: "recipes", width:"100%;", height:"100%", style:"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))" %>
-<!--         <img src="/assets/drink.jpeg" alt="drink" width="100%;" height="100%" id="recipes" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))">
- -->          <div class="text-overlay">
+        <div class="text-overlay">
              <h2 class= "cocktail-name"> <%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
           </div>
       </div>
